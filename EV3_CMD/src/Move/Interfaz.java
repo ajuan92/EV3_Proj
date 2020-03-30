@@ -14,4 +14,6 @@ public interface Interfaz extends Remote {
     int SpinLeft() throws RemoteException;
     int SpinRight() throws RemoteException;
     int StopMove() throws RemoteException;
+    float ReadUltraSonic() throws RemoteException;
+    float ReadTouch() throws RemoteException;
 }
