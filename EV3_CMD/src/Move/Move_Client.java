@@ -10,7 +10,7 @@ import java.lang.*;
 
 public class Move_Client {
 	private static final String Reg = "EV3_CMD"; // Puedes cambiar a localhost
-	private static final String IP = "192.168.137.154"; // Puedes cambiar a localhost
+	private static final String IP = "192.168.137.103"; // Puedes cambiar a localhost
 	private static final int PUERTO = 1100; //Si cambias aquí el puerto, recuerda cambiarlo en el servidor
 	private static int RunProgram = 0;
     public static void main(String[] args) throws RemoteException, NotBoundException {
