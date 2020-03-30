@@ -11,7 +11,7 @@ public class EV3_Control {
 		
 	    float TestUltraSonic = 0;
 	    
-    	TestUltraSonic =  interfaz.ReadUltraSonic();
+    	TestUltraSonic =  interfaz.ReadTouch();
         System.out.println("Resultado => " + String.valueOf(TestUltraSonic));
 
 	}

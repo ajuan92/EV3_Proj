@@ -23,7 +23,7 @@ public class Move_Client {
 	        
 	        try 
 	        {
-	        	Thread.sleep(500);
+	        	Thread.sleep(10);
 	        }catch(Exception e)
 	        {
 	        	System.out.print(e);
